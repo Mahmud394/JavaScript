@@ -75,3 +75,23 @@ const countVow = (stri)=>{
     console.log(count);
 }
 countVow("mahmudunnabi");
+
+// forEach Loop in Arrays
+/*
+arr.forEach( callBackFunction )
+CallbackFunction : Here, it is a function to execute for each element in the array
+*A callback is a function passed as an argument to another function.
+*/
+let arr = [1,3,5,6,7,8]
+arr.forEach( ( val ) => {
+    console.log(val);
+});
+arr.forEach( ( val,idx,arr ) => {
+    console.log(val,idx,arr);
+});
+
+// Qs. For a given array of numbers, print the square of each value using the forEach loop.
+let num = [45,7,85,78,6];
+num.forEach( ( val) => {
+    console.log(val*val);
+});
