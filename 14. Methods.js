@@ -38,6 +38,7 @@ let topper = marks.filter( ( val ) => {
 });
 console.log(topper);
 
+
 /*
 Qs. Take a number n as input from user. Create an array of numbers from 1 to n.
 Use the reduce method to calculate sum of all numbers in the array.
